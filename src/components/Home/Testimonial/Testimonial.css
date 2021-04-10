@@ -1,0 +1,5 @@
+.quote-container{
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 15px lightgray;
+    border-radius: 10px;
+}
