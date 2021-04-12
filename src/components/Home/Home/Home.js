@@ -7,6 +7,7 @@ import Header from '../Header/Header';
 import MakeAppoinment from '../MakeAppoinment/MakeAppoinment';
 import Services from '../Services/Services';
 import Testimonials from '../Testimonials/Testimonials';
+import Footer from '../../Shared/Footer/Footer'
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Blog></Blog>
             <Doctors></Doctors>
             <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
