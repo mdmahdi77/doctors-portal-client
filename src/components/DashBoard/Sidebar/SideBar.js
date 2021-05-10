@@ -11,7 +11,7 @@ const SideBar = () => {
     const [isDoctor, setIsDoctor] = useState(false)
 
     useEffect(() => {
-        fetch('http://localhost:5000/isDoctor', {
+        fetch('https://fierce-tor-46871.herokuapp.com/isDoctor', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email: userLoggedIn.email })
