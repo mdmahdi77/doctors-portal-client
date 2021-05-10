@@ -20,7 +20,6 @@ function App() {
   const [userLoggedIn, setUserLoggedIn] = useState({})
   return (
     <UserContext.Provider value={[userLoggedIn, setUserLoggedIn]}>
-      <h1>{userLoggedIn.email}</h1>
       <Router>
         <Switch>
           <Route path="/appointment">
